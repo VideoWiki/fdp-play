@@ -483,7 +483,7 @@ export class Docker {
       verbosity: '4',
       'swap-enable': 'true',
       mainnet: 'false',
-      'swap-endpoint': `http://${this.blockchainName}:9545`,
+      'blockchain-rpc-endpoint': `http://${this.blockchainName}:9545`,
       'swap-factory-address': SWAP_FACTORY_ADDRESS,
       password: 'password',
       'postage-stamp-address': POSTAGE_STAMP_ADDRESS,
